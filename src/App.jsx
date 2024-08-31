@@ -4,6 +4,7 @@ import Detailed from './Pages/Detailed'
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import SearchResult from './Pages/SearchResult'
+import FilterResult from './Pages/FilterResult'
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
     <Route path="/" element={<Home/>}/>
     <Route path="/detailed" element={<Detailed/>}/>
     <Route path="/search" element={<SearchResult/>}/>
-   </Routes>
+    <Route path ="/filter" element={<FilterResult/>}/>   </Routes>
    </>
   )
 }
