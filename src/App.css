@@ -1,4 +1,13 @@
-
+.logo{
+    width: 5rem;
+}
+.navbar{
+ box-shadow: 1px 2px 4px black;
+ margin-bottom: 2rem;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
 #Cards{
     display: flex;
     flex-wrap: wrap;
@@ -19,4 +28,21 @@
 }
 #Card p span{
     font-weight: 600;
+}
+.center{
+    text-align: center;
+}
+.error{
+    font-size: 2rem;
+    padding: 1rem;
+    color: red;
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+.search input{
+    font-size: 1.2rem;
+    padding: 0.4rem;
+    border-radius: 2rem;
 }

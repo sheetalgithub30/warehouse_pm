@@ -20,7 +20,7 @@ function Header() {
 
     }
   return (
-    <div>
+    <div className='search'>
         <form onSubmit={handleSubmit}>
           <input type="text" placeholder="Search BY Name..." value={search}
           onChange={(e)=>setSearch(e.target.value)}/>
