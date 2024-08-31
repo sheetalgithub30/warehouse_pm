@@ -1,0 +1,22 @@
+
+#Cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#Card{
+    width: 25%;
+    margin: 1.5rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color:rgb(255, 225, 187);
+    box-shadow: 1px 3px 4px brown;
+}
+
+#Card p{
+    font-size:1.4rem;
+}
+#Card p span{
+    font-weight: 600;
+}
