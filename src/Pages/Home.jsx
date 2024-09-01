@@ -5,13 +5,17 @@ import Header from '../Component/Header'
 import Navbar from '../Component/Navbar'
 import Filter from '../Component/Filter'
 import { resetFilter } from '../Redux/slice'
+import { useNavigate } from 'react-router-dom'
 
 function Home() {
   const {originalData} = useSelector((state)=>{return state.warehouseReducer});
   const dispatch = useDispatch();
+ 
   useEffect(()=>{
      dispatch(resetFilter())
   },[])
+
+
   return (<>
   <Navbar/>
   <Header/>

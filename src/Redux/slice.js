@@ -38,9 +38,19 @@ const warehouseSlice = createSlice({
        resetFilter:(state)=>{
         state.filterData =[...state.originalData];
         state.filterOption={city:"",cluster:"",space:""};
+       },
+       updateWarehouse:(state,action)=>{
+        const updateWarehouse = action.payload;
+        state.originalData = state.originalData.map((data)=>{
+            return data.id == updateWarehouse.id? updateWarehouse:data
+        })
+
+        state.filterData  = state.filterData.map((data)=>{
+            return data.id == updateWarehouse.id? updateWarehouse:data
+        })
        }
     }
 })
 
 export const warehouseReducer = warehouseSlice.reducer;
-export const {filterByName,setFilterOption,setFilterData,resetFilter} = warehouseSlice.actions 
+export const {filterByName,setFilterOption,setFilterData,resetFilter,updateWarehouse} = warehouseSlice.actions 
