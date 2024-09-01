@@ -1,4 +1,4 @@
-import React, { useDebugValue, useEffect } from 'react'
+import React, {useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import Card from '../Component/Card'
 import Header from '../Component/Header'
