@@ -1,7 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
 import data from "../../data";
-import { act } from "react";
-
 
 const warehouseSlice = createSlice({
     initialState :{
@@ -12,10 +10,14 @@ const warehouseSlice = createSlice({
             city:"",
             cluster:"",
             space:""
-        }
+        },
+        darkMode:false,
     },
     name:"warehouseSlice",
     reducers:{
+       setDarkMode:(state)=>{
+         state.darkMode = !state.darkMode
+       },
        filterByName:(state,action)=>{
         const search = action.payload
         state.searchData = state.originalData.filter((data)=>{
@@ -53,4 +55,4 @@ const warehouseSlice = createSlice({
 })
 
 export const warehouseReducer = warehouseSlice.reducer;
-export const {filterByName,setFilterOption,setFilterData,resetFilter,updateWarehouse} = warehouseSlice.actions 
+export const {filterByName,setFilterOption,setFilterData,resetFilter,updateWarehouse,setDarkMode} = warehouseSlice.actions 

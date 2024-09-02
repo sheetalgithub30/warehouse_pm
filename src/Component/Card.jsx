@@ -1,13 +1,18 @@
 import React from 'react'
+import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
 function Card({data}) {
+
+  const { darkMode } = useSelector((state) => {
+    return state.warehouseReducer;
+  });
   const navigate = useNavigate();
   function handleClick(id){
     navigate(`/${id}`)
   }
   return (
-    <div id="Card" onClick={()=>handleClick(data.id)}>
+    <div id={`${darkMode? "Card-dark" :"Card"}`} onClick={()=>handleClick(data.id)}>
         {/* <p>ID:{data.id}</p> */}
         <h2>Name:{data.name}</h2>
         <p><span>Code:</span>{data.code}</p>

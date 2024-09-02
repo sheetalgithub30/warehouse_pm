@@ -1,6 +1,7 @@
 .logo{
     width: 5rem;
 }
+
 .navbar{
  box-shadow: 1px 2px 4px black;
  margin-bottom: 2rem;
@@ -22,16 +23,27 @@
     background-color:rgb(255, 225, 187);
     box-shadow: 1px 3px 4px brown;
 }
+
+
+#Card-dark{
+    width: 25%;
+    margin: 1.5rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    color: white;
+    background-color:rgb(1, 7, 66);
+    box-shadow: 8px 10px 5px rgb(251, 231, 6);
+}
 .card-edit{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#Card p{
+#Card p,#Card-dark p{
     font-size:1.4rem;
 }
-#Card p span{
+#Card p span,#Card-dark p span{
     font-weight: 600;
 }
 .center{
@@ -96,6 +108,10 @@
     background-color: rgba(208, 172, 9, 0.922);
 }
 
+.mode{
+    font-size: 2rem;
+}
+
 @media screen and (max-width:780px) {
     #Card{
         width: 60%;
@@ -104,6 +120,16 @@
         border-radius: 2rem;
         background-color:rgb(255, 225, 187);
         box-shadow: 1px 3px 4px brown;
+    }
+
+    #Card-dark{
+        width: 60%;
+        margin: 1.5rem;
+        padding: 1rem;
+        border-radius: 2rem;
+        color: white;
+        background-color:rgb(1, 7, 66);
+        box-shadow: 8px 10px 5px rgb(251, 231, 6);
     }
 
     .filters{
