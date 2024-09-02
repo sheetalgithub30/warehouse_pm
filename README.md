@@ -8,30 +8,46 @@
 
 <div style="width:900px ;">
 
-1.  ![Screenshot 1](<./src/assets/ss1.png>)
+1. Warehouse Listing (Card Light Mode)
+    ![Screenshot 1](<./src/assets/ss1.png>)
 </div>
 
 <div style="width:900px ;">
 
-2.  ![Screenshot 2](<./src/assets/ss2.png>)
+2. Warehouse Listing (Card Dark Mode)
+  ![Screenshot 2](<./src/assets/ss2.png>)
 </div>
 
 <div style="width:900px ;">
 
-3.  ![Screenshot 3](<./src/assets/ss3.png>)
+3. Search By name
+ ![Screenshot 3](<./src/assets/ss3.png>)
 </div>
 
 <div style="width:900px ;">
 
-4.  ![Screenshot 4](<./src/assets/ss4.png>)
+4. Searched result 
+  ![Screenshot 4](<./src/assets/ss4.png>)
 </div>
 <div style="width:900px ;">
 
-4.  ![Screenshot 5](<./src/assets/ss5.png>)
+5. Filter By city,cluster and space available
+  ![Screenshot 5](<./src/assets/ss5.png>)
 </div>
 <div style="width:900px ;">
 
-4.  ![Screenshot 6](<./src/assets/ss6.png>)
+6. Filtered Result
+  ![Screenshot 6](<./src/assets/ss6.png>)
+</div>
+<div style="width:900px ;">
+
+7. Warehouse Details
+  ![Screenshot 7](<./src/assets/ss7.png>)
+</div>
+<div style="width:900px ;">
+
+8. Edit Warehouse Details
+  ![Screenshot 8](<./src/assets/ss8.png>)
 </div>
 
 
