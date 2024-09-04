@@ -2,7 +2,7 @@
 # 📌 Project Overview: Warehouse Management System
 
 ## 📌<span style="color:#29c4f6"> LIVE VIEW
-
+## [https://warehouse-pm.vercel.app/](https://warehouse-pm.vercel.app/)
 
 ## 📌 <span style="color:#29c4f6">SNAPSHOTS
 
